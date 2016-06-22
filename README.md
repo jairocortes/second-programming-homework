@@ -14,3 +14,25 @@ For MESI cache coherence protocol simulator
 	3- Wait for a few senconds, then the program will show the reslt for miss rate.
 
 	NOTE: The "memory-trace-gcc.trace.gz" file isn't included in this repository, so you need to add it to the directory of your cloned repository.
+
+
+For Eratostenes programms:
+
+	To excecute the sequential version you have to use these commands through 
+	the terminal:
+
+	- To compile: g++ -o salidaSec eratostSec.cpp 
+
+	- To execute: ./salidaSec
+
+
+
+
+	To excecute the paralel version you have to use these commands through 
+	the terminal:
+	
+	- To compile: mpicc -o salidaParalelo eratostParal.c -lmpi
+	- To excecute: mpirun -np 4 salidaParalelo
+
+
+	the number "4" in the last means the number of proccesses
