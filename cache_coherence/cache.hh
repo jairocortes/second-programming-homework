@@ -6,6 +6,10 @@
 #include <cstdlib>
 #include <cmath>
 #include <ctime>
+#include <vector>
+#include <stdexcept>
+#include <iterator>
+#include <deque>
 
 using namespace std;
 
